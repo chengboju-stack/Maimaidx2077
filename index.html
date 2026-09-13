@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="网页页面布局交互课程：视觉层级、盒模型、Flexbox、Grid、响应式与综合实践。">
+  <title>网页布局学习专题 · 从原则到实践</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <a class="skip" href="#content">跳到课程内容</a>
+  <nav class="topbar" aria-label="专题导航"><a class="brand" href="#overview">网页布局学习专题 <small>Web Layout Lab</small></a><div class="course-links"><a href="#overview">学习目标与目录</a><a href="#section-1">开始学习</a><a href="#sources">参考资料</a><a href="https://cinger007.github.io/vis/" target="_blank" rel="noopener noreferrer">老师的参考网站 ↗</a><button id="lang-toggle" class="lang-toggle" type="button" aria-pressed="false">中文 / EN</button></div></nav>
+  <header class="hero"><div class="hero-inner"><div><p class="eyebrow">WEB LAYOUT / LEARN BY DOING</p><h1>网页页面布局<span class="hero-dot">.</span></h1><p class="hero-desc">从视觉秩序到代码实现，让每一个元素各就其位。</p><div class="hero-meta"><span>6 个小节</span><span>6 个交互实验</span><span>HTML · CSS · JavaScript</span></div></div><div class="hero-art" aria-hidden="true"><div class="rhythm-ring"><i></i><i></i><i></i><i></i><b>LAY<br>OUT!</b></div><span class="sparkle s1">✦</span><span class="sparkle s2">✧</span><span class="orbit-dot"></span></div><div class="layout-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></header>
+  <section class="overview" id="overview" aria-labelledby="overview-title">
+    <p class="eyebrow">从这里开始 / START HERE</p><h2 id="overview-title">如何把一个网页布局得清晰、美观？</h2>
+    <p class="overview-lead">这是一份面向初学者的网页布局教程。学习如何划分页面区域、组织信息、编写布局代码，并让页面适应不同屏幕。</p>
+    <div class="concept-grid"><div class="concept"><b>你将学会什么</b><p>把内容拆成导航、主内容与辅助区域；运用层级、对齐和留白；选择 Flexbox 或 Grid；检查手机上的布局。</p></div><div class="concept"><b>如何使用本专题</b><p>每节按“文字讲解 → 关键代码 → 交互演示”学习。调整参数后，尝试解释变化的原因，再应用到自己的页面。</p></div></div>
+    <p class="overview-prereq">适合人群：网页开发初学者。代码示例使用 HTML 与 CSS；HTML 定义内容结构，CSS 决定排版样式，JavaScript 驱动交互实验。</p>
+    <h3>学习路线</h3><div id="overview-cards" class="overview-cards"></div>
+    <div class="callout mascot-callout"><span class="sticker-face" aria-hidden="true">✦‿✦</span><div>本专题重点是<strong>网页页面布局</strong>。学完后，你将能说明布局为什么这样设计，并实现一个结构清晰的页面。</div><span class="sticker-badge">PLAY<br>WITH<br>LAYOUT</span></div>
+    <a class="start-learning" href="#section-1">开始第 1 节：布局原则与视觉层级 →</a>
+  </section>
+  <div class="page" id="lesson-view" hidden><aside class="sidebar"><p class="nav-label">学习目录 <span>CONTENTS</span></p><nav id="sections" aria-label="小节目录"></nav><div class="learning-note"><span class="note-symbol">↗</span><strong>先理解，再动手</strong><p>阅读原理，查看关键代码，最后在实验中改变一个参数。</p></div><a class="reference" href="#sources">参考资料与说明 ↗</a></aside>
+  <main id="content" tabindex="-1"><div class="content-head"><div class="section-kicker" id="kicker"></div><h2 id="title"></h2><p id="subtitle"></p></div><div class="tabs" role="tablist" aria-label="学习方式"><button id="tab-explain" role="tab" aria-controls="panel-explain" data-tab="explain">📖 讲解</button><button id="tab-code" role="tab" aria-controls="panel-code" data-tab="code">⌨ 关键代码</button><button id="tab-demo" role="tab" aria-controls="panel-demo" data-tab="demo">▶ 演示</button></div><section id="panel-explain" role="tabpanel" aria-labelledby="tab-explain"></section><section id="panel-code" role="tabpanel" aria-labelledby="tab-code" hidden></section><section id="panel-demo" role="tabpanel" aria-labelledby="tab-demo" hidden></section><div class="pager"><button id="prev">← 上一节</button><span id="page-number"></span><button id="next">下一节 →</button></div></main></div>
+  <section class="sources" id="sources"><div><p class="eyebrow">READ FURTHER</p><h2>参考资料</h2><p>以实际案例理解规则，再回到标准文档核对细节。</p></div><div class="source-links"><a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/Box_model">MDN · CSS 盒模型 ↗</a><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_flexible_box_layout">MDN · Flexbox 布局 ↗</a><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_grid_layout">MDN · Grid 布局 ↗</a><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_media_queries/Using_media_queries">MDN · 媒体查询 ↗</a><a href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/">NN/g · 视觉层级 ↗</a><a href="https://cinger007.github.io/vis/">老师的课程网站 · 结构参考 ↗</a></div></section>
+  <section class="deliverables" aria-labelledby="deliverables-title"><p class="eyebrow">SUBMISSION / 提交物</p><h2 id="deliverables-title">从学习到展示 / From learning to sharing</h2><div class="deliverable-grid"><div><b>01 · 网页链接 / Web link</b><p>发布后的 GitHub Pages 或其他静态网站地址。</p></div><div><b>02 · 源代码 / Source code</b><p>将网站文件打包为 ZIP，包含 HTML、CSS 和 JavaScript。</p></div><div><b>03 · 讲解视频 / Walkthrough</b><p>原则上不超过 5 分钟，展示亮点并说明设计理由。</p></div><div><b>04 · 说明文档 / Notes</b><p>说明页面结构、理论依据、交互演示和自己的设计决策。</p></div></div></section>
+  <footer>《可视化导论》课程作业 · 网页布局学习专题<span>学生学习作品 · 独立制作，非教师官方章节</span></footer>
+  <script src="app.js"></script>
+</body></html>
